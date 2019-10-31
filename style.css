@@ -1,0 +1,44 @@
+* {
+  background-color: cadetblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  border: 5px solid fuchsia;
+  border-radius: 30%;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  margin: 10px;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  border: 3px solid orange;
+  width: 300px;
+  color: coral;
+}
+img {
+  border: 3px solid greenyellow;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+a {
+  color: green;
+  margin: 10px;
+  border: 3px solid brown;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
